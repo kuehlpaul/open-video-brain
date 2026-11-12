@@ -1,0 +1,33 @@
+# Dependencies (per machine/architecture, see setup.sh)
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Projects: media does not belong in Git
+projects/*
+!projects/README.md
+!projects/_template/
+!projects/_library/
+projects/_library/*/*
+!projects/_library/*/.gitkeep
+!projects/_demo/
+projects/_demo/work/audio-proxy/
+projects/_demo/work/render/
+projects/_demo/work/qa/
+projects/_demo/output/*
+!projects/_demo-short/
+projects/_demo-short/work/render/
+projects/_demo-short/work/qa/
+projects/_demo-short/output/*
+
+# Generated
+brand/catalog/*.png
+out/
+*.log
+
+# macOS / exFAT
+.DS_Store
+._*

@@ -1,0 +1,76 @@
+{
+  "name": "open-video-brain",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Footage + script in, finished YouTube video out. Claude Code makes the editing decisions, scripts and Remotion do the rest.",
+  "keywords": [
+    "youtube",
+    "video-editing",
+    "remotion",
+    "claude-code",
+    "shorts",
+    "ai-agents",
+    "captions"
+  ],
+  "author": "Paul Kühl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuehlpaul/open-video-brain.git"
+  },
+  "homepage": "https://github.com/kuehlpaul/open-video-brain#readme",
+  "bugs": {
+    "url": "https://github.com/kuehlpaul/open-video-brain/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "setup": "bash setup.sh",
+    "doctor": "node --import tsx pipeline/doctor.ts",
+    "brand": "node --import tsx pipeline/brand.ts",
+    "new": "node --import tsx pipeline/new-project.ts",
+    "ingest": "node --import tsx pipeline/ingest.ts",
+    "transcribe": "node --import tsx pipeline/transcribe.ts",
+    "align": "node --import tsx pipeline/align.ts",
+    "visuals": "node --import tsx pipeline/visuals.ts",
+    "sounds": "node --import tsx pipeline/sounds.ts",
+    "capture": "node --import tsx pipeline/capture.ts",
+    "upscale": "node --import tsx pipeline/upscale.ts",
+    "audio": "node --import tsx pipeline/audio-polish.ts",
+    "faces": "node --import tsx pipeline/faces.ts",
+    "voice": "node --import tsx pipeline/voice.ts",
+    "music": "node --import tsx pipeline/music.ts",
+    "timeline": "node --import tsx pipeline/build-timeline.ts",
+    "render": "node --import tsx pipeline/render.ts",
+    "qa": "node --import tsx pipeline/qa.ts",
+    "generate": "node --import tsx pipeline/generate.ts",
+    "catalog": "node --import tsx pipeline/catalog-stills.ts",
+    "preview": "node --import tsx pipeline/preview.ts",
+    "studio": "node node_modules/@remotion/cli/remotion-cli.js studio",
+    "typecheck": "node node_modules/typescript/bin/tsc --noEmit",
+    "gen": "node --import tsx pipeline/gen-registry.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/captions": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/fonts": "4.0.540",
+    "@remotion/paths": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@remotion/zod-types": "4.0.540",
+    "dotenv": "17.3.1",
+    "puppeteer-core": "25.16.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540",
+    "tsx": "4.23.15",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.0",
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

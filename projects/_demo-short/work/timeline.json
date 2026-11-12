@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "slug": "_demo-short",
+  "format": "short",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 279,
+  "clips": [
+    {
+      "id": "hook.1",
+      "kind": "footage",
+      "from": 0,
+      "duration": 59,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 314,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0.012,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 314,
+      "volume": 1
+    },
+    {
+      "id": "question.1",
+      "kind": "footage",
+      "from": 59,
+      "duration": 50,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 13,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0.012,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 13,
+      "volume": 1
+    },
+    {
+      "id": "question.2",
+      "kind": "footage",
+      "from": 109,
+      "duration": 60,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 103,
+      "zoom": 1.2,
+      "centerY": 0.54,
+      "push": 0.012,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 103,
+      "volume": 1
+    },
+    {
+      "id": "question.3",
+      "kind": "footage",
+      "from": 169,
+      "duration": 50,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 221,
+      "zoom": 1.4,
+      "centerY": 0.63,
+      "push": 0.012,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 221,
+      "volume": 1
+    },
+    {
+      "id": "verdict.1",
+      "kind": "footage",
+      "from": 219,
+      "duration": 60,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 395,
+      "zoom": 1.4,
+      "centerY": 0.63,
+      "push": 0.012,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 395,
+      "volume": 1
+    }
+  ],
+  "broll": [],
+  "overlays": [
+    {
+      "id": "list",
+      "component": "List",
+      "layout": "split",
+      "from": 109,
+      "duration": 152,
+      "props": {
+        "items": [
+          {
+            "f": -1,
+            "title": "Battery tested"
+          },
+          {
+            "f": 36,
+            "title": "Health measured"
+          }
+        ]
+      }
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "style": "short",
+    "tokens": [
+      {
+        "text": "The",
+        "startMs": 53,
+        "endMs": 313,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " battery",
+        "startMs": 373,
+        "endMs": 633,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " still",
+        "startMs": 693,
+        "endMs": 953,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " has",
+        "startMs": 1013,
+        "endMs": 1273,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " 93",
+        "startMs": 1333,
+        "endMs": 1593,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " percent.",
+        "startMs": 1653,
+        "endMs": 1913,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " Is",
+        "startMs": 2033,
+        "endMs": 2293,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " a",
+        "startMs": 2353,
+        "endMs": 2613,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " used",
+        "startMs": 2673,
+        "endMs": 2933,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " laptop",
+        "startMs": 2993,
+        "endMs": 3253,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " worthwhile?",
+        "startMs": 3313,
+        "endMs": 3573,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " We",
+        "startMs": 3700,
+        "endMs": 3960,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " tested",
+        "startMs": 4020,
+        "endMs": 4280,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " its",
+        "startMs": 4340,
+        "endMs": 4600,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " battery",
+        "startMs": 4660,
+        "endMs": 4920,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " um",
+        "startMs": 4980,
+        "endMs": 5240,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " thoroughly.",
+        "startMs": 5300,
+        "endMs": 5560,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " We",
+        "startMs": 5687,
+        "endMs": 5947,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " tested",
+        "startMs": 6007,
+        "endMs": 6267,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " its",
+        "startMs": 6327,
+        "endMs": 6587,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " battery",
+        "startMs": 6647,
+        "endMs": 6907,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " thoroughly.",
+        "startMs": 6967,
+        "endMs": 7227,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " That",
+        "startMs": 7373,
+        "endMs": 7633,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " is",
+        "startMs": 7693,
+        "endMs": 7953,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " a",
+        "startMs": 8013,
+        "endMs": 8273,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " very",
+        "startMs": 8333,
+        "endMs": 8593,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " good",
+        "startMs": 8653,
+        "endMs": 8913,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " value.",
+        "startMs": 8973,
+        "endMs": 9233,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ]
+  },
+  "music": [],
+  "sfx": [],
+  "chapters": []
+}

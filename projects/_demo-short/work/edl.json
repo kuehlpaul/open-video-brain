@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "slug": "_demo-short",
+  "format": "short",
+  "framing": { "focusX": 0.5, "focusY": 0.5 },
+  "sequence": [
+    { "type": "footage", "id": "hook", "clip": "A001.mp4", "in": 10.3, "out": 12.6 },
+    { "type": "footage", "id": "question", "clip": "A001.mp4", "in": 0.3, "out": 9.2 },
+    { "type": "footage", "id": "verdict", "clip": "A001.mp4", "in": 13.0, "out": 15.4 }
+  ],
+  "overlays": [
+    { "id": "list", "component": "List", "at": { "seg": "question", "t": 3.5 }, "duration": 5,
+      "props": { "items": [ { "f": -1, "title": "Battery tested" }, { "f": { "s": 1.2 }, "title": "Health measured" } ] } }
+  ],
+  "sfx": [ { "name": "swoosh_fast", "at": { "seg": "question", "t": 3.5 } } ],
+  "captions": { "enabled": true, "style": "short" }
+}

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(ffprobe *)",
+      "Bash(ffmpeg *)",
+      "Bash(ls *)",
+      "Edit(./projects/**)",
+      "Write(./projects/**)"
+    ],
+    "ask": [
+      "Bash(npm run audio * --isolate*)",
+      "Bash(npm run generate *)",
+      "Bash(npm run upscale *)",
+      "Bash(npm run transcribe * --force*)",
+      "Bash(npm run voice * --force*)",
+      "Bash(npm run music *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Write(./.env)",
+      "Bash(cat .env)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}

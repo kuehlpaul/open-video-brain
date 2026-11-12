@@ -1,0 +1,133 @@
+{
+  "script": {
+    "sections": [
+      {
+        "id": "H1",
+        "title": "Intro"
+      },
+      {
+        "id": "H2",
+        "title": "The battery check"
+      }
+    ],
+    "directions": [
+      {
+        "afterSentence": "S2",
+        "text": "GRAPHIC Flow: Munich → Vienna"
+      },
+      {
+        "afterSentence": "S2",
+        "text": "VOICE We picked the laptop up in Vienna."
+      },
+      {
+        "afterSentence": "S4",
+        "text": "GRAPHIC Statement: 93% | Battery health"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "S1",
+      "section": "H1",
+      "text": "Is a used laptop worthwhile?",
+      "tokens": [
+        "is",
+        "a",
+        "used",
+        "laptop",
+        "worthwhile"
+      ],
+      "candidates": [
+        {
+          "clip": "A001.mp4",
+          "start": 0.5,
+          "end": 2.04,
+          "score": 1,
+          "heard": "Is a used laptop worthwhile?",
+          "wordStart": 0,
+          "wordEnd": 4
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "section": "H1",
+      "text": "We tested its battery thoroughly.",
+      "tokens": [
+        "we",
+        "tested",
+        "its",
+        "battery",
+        "thoroughly"
+      ],
+      "candidates": [
+        {
+          "clip": "A001.mp4",
+          "start": 7.42,
+          "end": 8.96,
+          "score": 1,
+          "heard": "We tested its battery thoroughly.",
+          "wordStart": 11,
+          "wordEnd": 15
+        },
+        {
+          "clip": "A001.mp4",
+          "start": 3.5,
+          "end": 5.36,
+          "score": 0.91,
+          "heard": "We tested its battery um thoroughly.",
+          "wordStart": 5,
+          "wordEnd": 10
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "section": "H2",
+      "text": "The battery still has 93 percent.",
+      "tokens": [
+        "the",
+        "battery",
+        "still",
+        "has",
+        "93",
+        "percent"
+      ],
+      "candidates": [
+        {
+          "clip": "A001.mp4",
+          "start": 10.52,
+          "end": 12.38,
+          "score": 1,
+          "heard": "The battery still has 93 percent.",
+          "wordStart": 16,
+          "wordEnd": 21
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "section": "H2",
+      "text": "That is a very good value.",
+      "tokens": [
+        "that",
+        "is",
+        "a",
+        "very",
+        "good",
+        "value"
+      ],
+      "candidates": [
+        {
+          "clip": "A001.mp4",
+          "start": 13.24,
+          "end": 15.1,
+          "score": 1,
+          "heard": "That is a very good value.",
+          "wordStart": 22,
+          "wordEnd": 27
+        }
+      ]
+    }
+  ]
+}

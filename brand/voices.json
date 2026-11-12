@@ -1,0 +1,18 @@
+{
+  "_info": "Speaker -> ElevenLabs voice ID. The voice belongs to the person on camera, not to the editor. Set consent=true only with the person's written consent. Without consent the pipeline refuses TTS.",
+  "voices": {
+    "host": {
+      "name": "Host",
+      "voiceId": "",
+      "consent": false,
+      "model": "",
+      "settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.8,
+        "style": 0.15,
+        "use_speaker_boost": true
+      },
+      "notes": "Create a Professional Voice Clone in ElevenLabs, then enter its voice ID here."
+    }
+  }
+}

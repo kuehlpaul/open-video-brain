@@ -1,0 +1,156 @@
+{
+  "name": "Example Brand",
+  "source": "Example brand pack. Replace colors, fonts, logos and sounds here to apply your own look - no component code needs to change.",
+  "channel": {
+    "name": "Your Channel",
+    "language": "en"
+  },
+  "logo": {
+    "enabled": true,
+    "sting": true
+  },
+  "colors": {
+    "primary": {
+      "25": "#F5FAFF",
+      "50": "#EFF8FF",
+      "100": "#D1E9FF",
+      "200": "#B2DDFF",
+      "300": "#84CAFF",
+      "400": "#53B1FD",
+      "500": "#2E90FA",
+      "600": "#1570EF",
+      "700": "#175CD3",
+      "800": "#1849A9",
+      "900": "#194185"
+    },
+    "gray": {
+      "25": "#FCFCFD",
+      "50": "#F9FAFB",
+      "100": "#F2F4F7",
+      "200": "#EAECF0",
+      "300": "#D0D5DD",
+      "400": "#98A2B3",
+      "500": "#667085",
+      "600": "#475467",
+      "700": "#344054",
+      "800": "#1D2939",
+      "900": "#101828"
+    },
+    "success": "#12B76A",
+    "warning": "#F79009",
+    "error": "#F04438",
+    "white": "#FFFFFF"
+  },
+  "look": {
+    "surface": "#FCFCFD",
+    "card": "#F9FAFB",
+    "border": "#EAECF0",
+    "heading": "#101828",
+    "text": "#475467",
+    "muted": "#667085",
+    "track": "#F2F4F7",
+    "brand": "#1570EF",
+    "onAccentSoft": "rgba(252,252,253,0.5)",
+    "onAccentMuted": "rgba(255,255,255,0.6)",
+    "bar": "linear-gradient(90deg, #B2DDFF 0%, #1570EF 100%)",
+    "stage": "linear-gradient(180deg, #FCFCFD 0%, #EFF8FF 100%)",
+    "scrim": "linear-gradient(180deg, rgba(16,24,40,0) 0%, rgba(16,24,40,0.35) 55%, rgba(16,24,40,0.7) 100%)",
+    "shadowCard": "0 40px 80px -24px rgba(16,24,40,0.14)"
+  },
+  "typography": {
+    "family": "Inter",
+    "trackingEm": -0.02,
+    "lineHeight": 1.1
+  },
+  "design": {
+    "_info": "All graphics are built in design pixels (4K grid) and scaled at render time (1080p = 0.5).",
+    "landscape": {
+      "width": 3840,
+      "height": 2160
+    },
+    "panel": {
+      "width": 2228,
+      "height": 2160
+    },
+    "portrait": {
+      "width": 2160,
+      "height": 3840
+    },
+    "portraitStage": {
+      "width": 2160,
+      "height": 2180,
+      "zoom": 1.08
+    }
+  },
+  "layout": {
+    "split": {
+      "mediaShare": 0.58,
+      "speakerCenterX": 0.782
+    },
+    "portraitSplit": {
+      "_info": "9:16 split: graphic on top, speaker below, scaled down with headroom. speakerScale = size of the speaker image, speakerFaceY = face height in the footage (fraction; horizontal comes from the segment's focusX), speakerFaceTargetY = where the face lands in the 9:16 frame (fraction of height), speakerPush = slow push per second.",
+      "mediaShare": 0.5,
+      "speakerScale": 0.7,
+      "speakerFaceY": 0.25,
+      "speakerFaceTargetY": 0.645,
+      "speakerPush": 0.01,
+      "captionY": 0.86,
+      "designWidth": 2080
+    }
+  },
+  "motion": {
+    "kenBurns": 1.04,
+    "enterFrames": 12,
+    "riseDistance": 40
+  },
+  "pacing": {
+    "longform": {
+      "maxPause": 0.4,
+      "padding": 0.08,
+      "zoomLevels": [
+        1,
+        1.15
+      ],
+      "punchCenterY": 0.575,
+      "minZoomHold": 3,
+      "push": 0
+    },
+    "short": {
+      "maxPause": 0.25,
+      "padding": 0.06,
+      "zoomLevels": [
+        1,
+        1.2,
+        1.4
+      ],
+      "punchCenterY": 0.5,
+      "headroomTop": 0.05,
+      "minSeconds": {
+        "Video": 2.5,
+        "default": 3.5
+      },
+      "minZoomHold": 2,
+      "push": 0.012
+    }
+  },
+  "captions": {
+    "short": {
+      "sizePx1080": 62,
+      "activeSizePx1080": 71,
+      "y": 0.68,
+      "maxLine": 13,
+      "glow": "0 0 28px rgba(255,255,255,0.35)"
+    }
+  },
+  "sound": {
+    "whooshInDb": -25,
+    "whooshOutDb": -25,
+    "whooshLeadFrames": 15,
+    "sfxDefaultDb": -18
+  },
+  "audio": {
+    "targetLufs": -14,
+    "truePeakDb": -1.5,
+    "musicVolume": 0.08
+  }
+}

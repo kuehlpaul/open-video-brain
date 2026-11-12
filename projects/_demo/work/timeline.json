@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "slug": "_demo",
+  "format": "longform",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 780,
+  "clips": [
+    {
+      "id": "hook.1",
+      "kind": "footage",
+      "from": 0,
+      "duration": 51,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 13,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 13,
+      "volume": 1
+    },
+    {
+      "id": "sting",
+      "kind": "generated",
+      "from": 51,
+      "duration": 60,
+      "trimBefore": 0,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 0,
+      "volume": 1,
+      "visual": {
+        "component": "Sting",
+        "props": {}
+      }
+    },
+    {
+      "id": "test.1",
+      "kind": "footage",
+      "from": 111,
+      "duration": 51,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 220,
+      "zoom": 1.15,
+      "centerY": 0.575,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 220,
+      "volume": 1
+    },
+    {
+      "id": "battery.1",
+      "kind": "footage",
+      "from": 162,
+      "duration": 153,
+      "src": "_demo/input/footage/A001.mp4",
+      "trimBefore": 309,
+      "zoom": 1.15,
+      "centerY": 0.575,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 309,
+      "volume": 1
+    },
+    {
+      "id": "map",
+      "kind": "generated",
+      "from": 315,
+      "duration": 105,
+      "trimBefore": 0,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioSrc": "_demo/work/voice/map-demo.mp3",
+      "audioTrimBefore": 0,
+      "volume": 1,
+      "visual": {
+        "component": "Flow",
+        "props": {
+          "heading": "Pickup",
+          "nodes": [
+            {
+              "title": "Munich",
+              "sub": "Start"
+            },
+            {
+              "title": "Vienna",
+              "sub": "Pickup"
+            }
+          ],
+          "steps": [
+            {
+              "f": 4,
+              "i": 0
+            },
+            {
+              "f": 20,
+              "i": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "endcard",
+      "kind": "generated",
+      "from": 420,
+      "duration": 360,
+      "trimBefore": 0,
+      "zoom": 1,
+      "centerY": 0.5,
+      "push": 0,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "audioTrimBefore": 0,
+      "volume": 1,
+      "visual": {
+        "component": "EndCard",
+        "props": {
+          "title": "Thanks for watching!"
+        }
+      }
+    }
+  ],
+  "broll": [],
+  "overlays": [
+    {
+      "id": "battery-statement",
+      "component": "Statement",
+      "layout": "split",
+      "from": 162,
+      "duration": 153,
+      "props": {
+        "heading": "Battery",
+        "plain": true,
+        "label": "Battery health",
+        "value": "93%",
+        "accent": true,
+        "f": 45,
+        "sub": {
+          "f": 90,
+          "text": "a very good value"
+        }
+      }
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "style": "longform",
+    "tokens": [
+      {
+        "text": "Is",
+        "startMs": 67,
+        "endMs": 327,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " a",
+        "startMs": 387,
+        "endMs": 647,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " used",
+        "startMs": 707,
+        "endMs": 967,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " laptop",
+        "startMs": 1027,
+        "endMs": 1287,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " worthwhile?",
+        "startMs": 1347,
+        "endMs": 1607,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " We",
+        "startMs": 3787,
+        "endMs": 4047,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " tested",
+        "startMs": 4107,
+        "endMs": 4367,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " its",
+        "startMs": 4427,
+        "endMs": 4687,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " battery",
+        "startMs": 4747,
+        "endMs": 5007,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " thoroughly.",
+        "startMs": 5067,
+        "endMs": 5327,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " The",
+        "startMs": 5620,
+        "endMs": 5880,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " battery",
+        "startMs": 5940,
+        "endMs": 6200,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " still",
+        "startMs": 6260,
+        "endMs": 6520,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " has",
+        "startMs": 6580,
+        "endMs": 6840,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " 93",
+        "startMs": 6900,
+        "endMs": 7160,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " percent.",
+        "startMs": 7220,
+        "endMs": 7480,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " That",
+        "startMs": 8340,
+        "endMs": 8600,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " is",
+        "startMs": 8660,
+        "endMs": 8920,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " a",
+        "startMs": 8980,
+        "endMs": 9240,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " very",
+        "startMs": 9300,
+        "endMs": 9560,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " good",
+        "startMs": 9620,
+        "endMs": 9880,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " value.",
+        "startMs": 9940,
+        "endMs": 10200,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " We",
+        "startMs": 10800,
+        "endMs": 11160,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " picked",
+        "startMs": 11220,
+        "endMs": 11580,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " the",
+        "startMs": 11640,
+        "endMs": 12000,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " laptop",
+        "startMs": 12060,
+        "endMs": 12420,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " up",
+        "startMs": 12480,
+        "endMs": 12840,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " in",
+        "startMs": 12900,
+        "endMs": 13260,
+        "timestampMs": null,
+        "confidence": null
+      },
+      {
+        "text": " Vienna.",
+        "startMs": 13320,
+        "endMs": 13680,
+        "timestampMs": null,
+        "confidence": null
+      }
+    ]
+  },
+  "music": [],
+  "sfx": [],
+  "chapters": [
+    {
+      "from": 162,
+      "title": "The battery check"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+ "clip": "A001.mp4",
+ "language": "en",
+ "model": "demo (synthetic)",
+ "createdAt": "2026-11-04T00:00:00Z",
+ "words": [
+  {
+   "text": "Is",
+   "start": 0.5,
+   "end": 0.76,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 0.82,
+   "end": 1.08,
+   "type": "word"
+  },
+  {
+   "text": "used",
+   "start": 1.14,
+   "end": 1.4,
+   "type": "word"
+  },
+  {
+   "text": "laptop",
+   "start": 1.46,
+   "end": 1.72,
+   "type": "word"
+  },
+  {
+   "text": "worthwhile?",
+   "start": 1.78,
+   "end": 2.04,
+   "type": "word"
+  },
+  {
+   "text": "We",
+   "start": 3.5,
+   "end": 3.76,
+   "type": "word"
+  },
+  {
+   "text": "tested",
+   "start": 3.82,
+   "end": 4.08,
+   "type": "word"
+  },
+  {
+   "text": "its",
+   "start": 4.14,
+   "end": 4.4,
+   "type": "word"
+  },
+  {
+   "text": "battery",
+   "start": 4.46,
+   "end": 4.72,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 4.78,
+   "end": 5.04,
+   "type": "word"
+  },
+  {
+   "text": "thoroughly.",
+   "start": 5.1,
+   "end": 5.36,
+   "type": "word"
+  },
+  {
+   "text": "We",
+   "start": 7.42,
+   "end": 7.68,
+   "type": "word"
+  },
+  {
+   "text": "tested",
+   "start": 7.74,
+   "end": 8.0,
+   "type": "word"
+  },
+  {
+   "text": "its",
+   "start": 8.06,
+   "end": 8.32,
+   "type": "word"
+  },
+  {
+   "text": "battery",
+   "start": 8.38,
+   "end": 8.64,
+   "type": "word"
+  },
+  {
+   "text": "thoroughly.",
+   "start": 8.7,
+   "end": 8.96,
+   "type": "word"
+  },
+  {
+   "text": "The",
+   "start": 10.52,
+   "end": 10.78,
+   "type": "word"
+  },
+  {
+   "text": "battery",
+   "start": 10.84,
+   "end": 11.1,
+   "type": "word"
+  },
+  {
+   "text": "still",
+   "start": 11.16,
+   "end": 11.42,
+   "type": "word"
+  },
+  {
+   "text": "has",
+   "start": 11.48,
+   "end": 11.74,
+   "type": "word"
+  },
+  {
+   "text": "93",
+   "start": 11.8,
+   "end": 12.06,
+   "type": "word"
+  },
+  {
+   "text": "percent.",
+   "start": 12.12,
+   "end": 12.38,
+   "type": "word"
+  },
+  {
+   "text": "That",
+   "start": 13.24,
+   "end": 13.5,
+   "type": "word"
+  },
+  {
+   "text": "is",
+   "start": 13.56,
+   "end": 13.82,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 13.88,
+   "end": 14.14,
+   "type": "word"
+  },
+  {
+   "text": "very",
+   "start": 14.2,
+   "end": 14.46,
+   "type": "word"
+  },
+  {
+   "text": "good",
+   "start": 14.52,
+   "end": 14.78,
+   "type": "word"
+  },
+  {
+   "text": "value.",
+   "start": 14.84,
+   "end": 15.1,
+   "type": "word"
+  }
+ ]
+}

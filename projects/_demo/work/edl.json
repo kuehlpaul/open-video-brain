@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "slug": "_demo",
+  "format": "longform",
+  "sequence": [
+    {
+      "type": "footage",
+      "id": "hook",
+      "clip": "A001.mp4",
+      "in": 0.3,
+      "out": 2.3,
+      "scriptRef": "S1"
+    },
+    {
+      "type": "graphic",
+      "id": "sting",
+      "visual": {
+        "component": "Sting",
+        "props": {}
+      },
+      "duration": 2
+    },
+    {
+      "type": "footage",
+      "id": "test",
+      "clip": "A001.mp4",
+      "in": 7.2,
+      "out": 9.2,
+      "scriptRef": "S2",
+      "note": "second take, the first one had an 'um'"
+    },
+    {
+      "type": "footage",
+      "id": "battery",
+      "chapter": "The battery check",
+      "tightenPauses": false,
+      "clip": "A001.mp4",
+      "in": 10.3,
+      "out": 15.4,
+      "scriptRef": "S3-S4"
+    },
+    {
+      "type": "voice",
+      "id": "map",
+      "voiceInsert": "map-vienna",
+      "visual": {
+        "component": "Flow",
+        "props": {
+          "heading": "Pickup",
+          "nodes": [
+            {
+              "title": "Munich",
+              "sub": "Start"
+            },
+            {
+              "title": "Vienna",
+              "sub": "Pickup"
+            }
+          ],
+          "steps": [
+            {
+              "f": 4,
+              "i": 0
+            },
+            {
+              "f": 20,
+              "i": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "graphic",
+      "id": "endcard",
+      "visual": {
+        "component": "EndCard",
+        "props": {
+          "title": "Thanks for watching!"
+        }
+      },
+      "duration": 12
+    }
+  ],
+  "voiceInserts": [
+    {
+      "id": "map-vienna",
+      "voice": "host",
+      "text": "We picked the laptop up in Vienna."
+    }
+  ],
+  "overlays": [
+    {
+      "id": "battery-statement",
+      "component": "Statement",
+      "layout": "split",
+      "at": {
+        "seg": "battery",
+        "t": 10.3
+      },
+      "duration": 5.1,
+      "props": {
+        "heading": "Battery",
+        "plain": true,
+        "label": "Battery health",
+        "value": "93%",
+        "accent": true,
+        "f": {
+          "t": 11.8
+        },
+        "sub": {
+          "f": {
+            "t": 13.3
+          },
+          "text": "a very good value"
+        }
+      }
+    }
+  ],
+  "sfx": [
+    {
+      "name": "click",
+      "at": {
+        "seg": "battery",
+        "t": 11.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "map-vienna": {
+    "id": "map-vienna",
+    "src": "_demo/work/voice/map-demo.mp3",
+    "duration": 3.2,
+    "text": "We picked the laptop up in Vienna.",
+    "voice": "host",
+    "hash": "demo",
+    "words": [
+      {
+        "text": "We",
+        "start": 0.3,
+        "end": 0.66
+      },
+      {
+        "text": "picked",
+        "start": 0.72,
+        "end": 1.08
+      },
+      {
+        "text": "the",
+        "start": 1.14,
+        "end": 1.5
+      },
+      {
+        "text": "laptop",
+        "start": 1.56,
+        "end": 1.92
+      },
+      {
+        "text": "up",
+        "start": 1.98,
+        "end": 2.34
+      },
+      {
+        "text": "in",
+        "start": 2.4,
+        "end": 2.76
+      },
+      {
+        "text": "Vienna.",
+        "start": 2.82,
+        "end": 3.18
+      }
+    ]
+  }
+}

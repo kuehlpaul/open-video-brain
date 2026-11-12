@@ -1,0 +1,4 @@
+{
+  "_doc": "Things you can photograph or film. build-timeline warns when a text graphic (Statement, Words, Tiles, List) names one of them and no visuals.json exists. Keep it short; it does not replace the decision made in the /visuals-plan skill.",
+  "terms": ["car", "bicycle", "train", "airplane", "charging station", "laptop", "smartphone", "camera", "kitchen", "office", "factory", "warehouse", "construction site", "solar panel", "wind turbine", "power outlet", "cable", "tool", "machine", "storefront", "restaurant", "street", "bridge", "building", "product"]
+}
